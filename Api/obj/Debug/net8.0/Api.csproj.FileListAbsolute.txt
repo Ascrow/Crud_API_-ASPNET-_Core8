@@ -253,3 +253,4 @@ E:\proyectos\prueba_tecnica\back\Api\Api\obj\Debug\net8.0\ref\Api.dll
 E:\proyectos\prueba_tecnica\back\Api\Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
 E:\proyectos\prueba_tecnica\back\Api\Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\proyectos\prueba_tecnica\back\Api\Api\bin\Debug\net8.0\System.Text.Json.dll
+E:\proyectos\prueba_tecnica\back\Api\Api\bin\Debug\net8.0\System.Web.Cors.dll
