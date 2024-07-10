@@ -9,11 +9,13 @@ using Api.Context;
 using Api.Models;
 using Api.Utils;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowSpecificOrigin")]
     public class UsuarioController : ControllerBase
     {
         private readonly AppDbContext _context;

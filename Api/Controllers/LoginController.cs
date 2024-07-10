@@ -3,11 +3,13 @@ using Api.Models;
 using Api.Context;
 using Microsoft.EntityFrameworkCore;
 using Api.Utils;
+using Microsoft.AspNetCore.Cors;
 
 namespace Api.Controllers
 {
     [Route("api/")]
     [ApiController]
+    [EnableCors("AllowSpecificOrigin")]
     public class LoginController : ControllerBase
     {
         private readonly AppDbContext _context;

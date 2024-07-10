@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using Api.Context;
 using Api.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowSpecificOrigin")]
     public class ProductoController : ControllerBase
     {
         private readonly AppDbContext _context;
