@@ -8102,11 +8102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proyectos\\prueba_tecnica\\back\\Api\\Api\\Api.csproj",
+      "projectUniqueName": "E:\\proyectos\\prueba_tecnica\\back\\Crud_API_-ASPNET-_Core8\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "E:\\proyectos\\prueba_tecnica\\back\\Api\\Api\\Api.csproj",
+      "projectPath": "E:\\proyectos\\prueba_tecnica\\back\\Crud_API_-ASPNET-_Core8\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "E:\\proyectos\\prueba_tecnica\\back\\Api\\Api\\obj\\",
+      "outputPath": "E:\\proyectos\\prueba_tecnica\\back\\Crud_API_-ASPNET-_Core8\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -37,7 +37,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173")
+            policy.WithOrigins("Colocar direccion local de app front de origen.")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
